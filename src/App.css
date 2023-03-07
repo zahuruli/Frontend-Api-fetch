@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+.Api-div {
+}
+
+article {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+article:hover {
+    box-shadow: 3px 3px 4px rgb(142, 0, 0);
+}
+
+button {
+    background-color: brown;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+    padding: 5px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 4px white;
+}
+
+.form-div {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+form {
+    width: 100%;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+
+section {
+    display: grid;
+}
+
+@media screen and (min-width: 600px) {
+    section {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (min-width: 992px) {
+    section {
+        grid-template-columns: auto auto auto auto;
+    }
+}
